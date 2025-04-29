@@ -3,8 +3,8 @@
 namespace nexxai\EngineSwap\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use nexxai\EngineSwap\EngineSwapServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

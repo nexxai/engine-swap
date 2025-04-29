@@ -2,9 +2,9 @@
 
 namespace nexxai\EngineSwap;
 
+use nexxai\EngineSwap\Commands\EngineSwapCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use nexxai\EngineSwap\Commands\EngineSwapCommand;
 
 class EngineSwapServiceProvider extends PackageServiceProvider
 {
