@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace nexxai\EngineSwap;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use nexxai\EngineSwap\Commands\EngineSwapCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class EngineSwapServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('engine-swap')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_engine_swap_table')
+            ->hasCommand(EngineSwapCommand::class);
     }
 }
